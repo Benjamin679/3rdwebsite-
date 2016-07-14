@@ -8,7 +8,7 @@ alert( beginningSenarios[ randomNumber( beginningSenarios.length - 1 ) ] );
 
 var weaponList = ["Sword", "Rubber Chicken", "Baseball Bat", "Crossbow", "YoYo", "Pan", "Poo", "Pistol", "Water Gun", "Spoon", "Fork", "Grenade", "Bazooka!", "Whip", "Rifle", "Corn on the Cob"];
 
-var weapon = weaponList[ randomNumber( weaponList.length - 1) ];
+var weapon = prompt("Choose your weapon", weaponList[ randomNumber( weaponList.length - 1) ]);
 alert("In the moment of despiration you see a " + weapon + " !" + " You take the " + weapon + " and attempt to slater the Zombies with it " + " !");
 
 alert("Know you make a choice are you going to let the Zombies kill you or are you going to kill it with your new " + weapon + " !");
@@ -27,3 +27,7 @@ if(survive === 0) {
     alert("Play Again!");
     alert("Game by Benjamin Fairbourne")
 }
+
+    
+
+/*weaponList[ randomNumber( weaponList.length - 1) ];*/
