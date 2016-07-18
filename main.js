@@ -27,7 +27,10 @@ if(survive === 0) {
     alert("Play Again!");
     alert("Game by Benjamin Fairbourne")
 }
-
+function customAlert(msg) {
+var alertDiv = "<div style='position: relative; top: 200px; left: 200px;'>"+msg+"</div>";
+document.getElementsByTagName('body')[0].appendChild(alertDiv);
+}
     
 
 /*weaponList[ randomNumber( weaponList.length - 1) ];*/
