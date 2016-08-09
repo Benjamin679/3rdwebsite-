@@ -1,5 +1,6 @@
 var beginningSenarios = ["You wake up in the middle of the street surrounded by Zombies!", "Your campsite was invaded by Zombies!", "Some freaking Zombies are on top of you trying to bite your face off!", "Your family just got eaten alive by Zombies and you run away!" ];
-
+$( document ).ready(function() {
+    console.log( "ready!" );
 function randomNumber (range) {
     return Math.round( Math.random() * range );
 }
@@ -31,6 +32,6 @@ function customAlert(msg) {
 var alertDiv = "<div style='position: relative; top: 200px; left: 200px;'>"+msg+"</div>";
 document.getElementsByTagName('body')[0].appendChild(alertDiv);
 }
-    
+});    
 
 /*weaponList[ randomNumber( weaponList.length - 1) ];*/
